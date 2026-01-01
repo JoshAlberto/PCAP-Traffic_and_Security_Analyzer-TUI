@@ -1,0 +1,30 @@
+palette = [
+    ('reversed', 'standout', ''),
+    ('title', 'light green,bold', 'black'),
+    ('title_alert', 'light red,bold', 'black'),   
+    ('ip', 'dark green', 'black'),
+    ('proto', 'yellow', 'black'),
+    ('button normal', 'light green', 'black'),
+    ('button focus', 'black', 'light green', 'bold'),
+    ('divider', 'dark green', 'black'),
+    ('box', 'light green', 'black'),               
+    ('box_alert', 'light red', 'black'),           
+    ('button_box', 'light green', 'black'),
+    ('body', 'light gray', 'black'),
+    ('explanation', 'light gray', 'black'),
+    ('box_blue', 'light blue', 'black'),
+    ('text_blue', 'light blue', 'black'),
+    ('button blue', 'light blue', 'black'),
+    ('button_focus_blue', 'black', 'light blue'),
+    ('text_white', 'white', 'black'),
+
+    
+    # Estilos de filas según protocolo
+    ('row tcp', 'black', 'light cyan'),
+    ('row udp', 'white', 'dark blue'),
+    ('row icmp', 'white', 'dark magenta'),
+    ('row arp', 'black', 'dark red'),
+    ('row dns', 'black', 'light cyan'),
+    ('row vrrp', 'black', 'yellow'),
+    ('row default', 'light gray', 'black'),
+]
